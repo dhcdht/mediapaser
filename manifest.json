@@ -70,7 +70,7 @@
     },
     "h5" : {
         "router" : {
-            "base" : "/medaipaser/"
+            "base" : "/mediapaser/"
         }
     },
     "vueVersion" : "2"

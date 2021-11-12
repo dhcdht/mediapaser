@@ -6,9 +6,12 @@
   "dependencies": {
     "mp4box": "^0.4.9"
   },
-  "devDependencies": {},
+  "devDependencies": {
+	"gh-pages": "^3.2.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"deploy": "gh-pages -d unpackage/dist/build/h5"
   },
   "keywords": [],
   "author": "",
